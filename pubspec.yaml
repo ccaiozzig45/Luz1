@@ -1,0 +1,4 @@
+name: luz_app
+version: 1.0.0
+flutter:
+  sdk: flutter
