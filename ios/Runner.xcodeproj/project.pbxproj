@@ -1,0 +1,53 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 52;
+  objects = {
+    /* Begin PBXBuildFile section */
+    1D60588D0D05DD3D006BFB54 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D60588C0D05DD3D006BFB54 /* main.swift */; };
+    /* End PBXBuildFile section */
+
+    /* Begin PBXFileReference section */
+    1D60588C0D05DD3D006BFB54 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+    /* End PBXFileReference section */
+
+    /* Begin PBXGroup section */
+    1D60588E0D05DD3D006BFB54 /* Runner */ = {
+      isa = PBXGroup;
+      children = (
+        1D60588C0D05DD3D006BFB54 /* main.swift */,
+      );
+      path = Runner;
+      sourceTree = "<group>";
+    };
+    /* End PBXGroup section */
+
+    /* Begin PBXNativeTarget section */
+    1D6058900D05DD3E006BFB54 /* Runner */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 1D6058910D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Runner" */;
+      buildPhases = (
+      );
+      buildRules = (
+      );
+      dependencies = (
+      );
+      name = Runner;
+      productName = Runner;
+      productType = "com.apple.product-type.application";
+    };
+    /* End PBXNativeTarget section */
+
+    /* Begin XCConfigurationList section */
+    1D6058910D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Runner" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    /* End XCConfigurationList section */
+  };
+  rootObject = 1D60588F0D05DD3D006BFB54 /* Project object */;
+}
