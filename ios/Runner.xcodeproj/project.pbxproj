@@ -6,19 +6,11 @@
   objects = {
 
     /* Begin PBXBuildFile section */
-    1D60588D0D05DD3D006BFB54 /* main.swift in Sources */ = {
-      isa = PBXBuildFile;
-      fileRef = 1D60588C0D05DD3D006BFB54 /* main.swift */;
-    };
+    1D60588D0D05DD3D006BFB54 /* main.swift in Sources / = {isa = PBXBuildFile; fileRef = 1D60588C0D05DD3D006BFB54 / main.swift */; };
     /* End PBXBuildFile section */
 
     /* Begin PBXFileReference section */
-    1D60588C0D05DD3D006BFB54 /* main.swift */ = {
-      isa = PBXFileReference;
-      lastKnownFileType = sourcecode.swift;
-      path = main.swift;
-      sourceTree = "<group>";
-    };
+    1D60588C0D05DD3D006BFB54 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
     /* End PBXFileReference section */
 
     /* Begin PBXGroup section */
@@ -37,46 +29,58 @@
       isa = PBXNativeTarget;
       buildConfigurationList = 1D6058910D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Runner" */;
       buildPhases = (
-        1D6058940D05DD3E006BFB54 /* Sources */,
       );
-      buildRules = ();
-      dependencies = ();
+      buildRules = (
+      );
+      dependencies = (
+      );
       name = Runner;
       productName = Runner;
       productType = "com.apple.product-type.application";
     };
     /* End PBXNativeTarget section */
 
-    /* Begin PBXSourcesBuildPhase section */
-    1D6058940D05DD3E006BFB54 /* Sources */ = {
-      isa = PBXSourcesBuildPhase;
-      buildActionMask = 2147483647;
-      files = (
-        1D60588D0D05DD3D006BFB54 /* main.swift in Sources */,
+    /* Begin PBXProject section */
+    1D60588F0D05DD3D006BFB54 /* Project object */ = {
+      isa = PBXProject;
+      targets = (
+        1D6058900D05DD3E006BFB54 /* Runner */,
       );
-      runOnlyForDeploymentPostprocessing = 0;
+      attributes = {
+        LastUpgradeCheck = 1420;
+      };
+      buildConfigurationList = 1D6058910D05DD3E006BFB54;
+      compatibilityVersion = "Xcode 9.3";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+      );
+      mainGroup = 1D60588E0D05DD3D006BFB54;
+      productRefGroup = 1D60588E0D05DD3D006BFB54;
+      projectDirPath = "";
+      projectRoot = "";
     };
-    /* End PBXSourcesBuildPhase section */
+    /* End PBXProject section */
 
     /* Begin XCBuildConfiguration section */
     1D6058920D05DD3E006BFB54 /* Debug */ = {
       isa = XCBuildConfiguration;
+      name = Debug;
       buildSettings = {
         PRODUCT_NAME = "$(TARGET_NAME)";
-        INFOPLIST_FILE = Info.plist;
+        SDKROOT = iphoneos;
         SWIFT_VERSION = 5.0;
       };
-      name = Debug;
     };
-
     1D6058930D05DD3E006BFB54 /* Release */ = {
       isa = XCBuildConfiguration;
+      name = Release;
       buildSettings = {
         PRODUCT_NAME = "$(TARGET_NAME)";
-        INFOPLIST_FILE = Info.plist;
+        SDKROOT = iphoneos;
         SWIFT_VERSION = 5.0;
       };
-      name = Release;
     };
     /* End XCBuildConfiguration section */
 
