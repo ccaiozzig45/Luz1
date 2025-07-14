@@ -2,9 +2,8 @@
 {
   archiveVersion = 1;
   classes = {};
-  objectVersion = 52;
+  objectVersion = 55;
   objects = {
-
     /* Begin PBXBuildFile section */
     1D60588D0D05DD3D006BFB54 /* main.swift in Sources / = {isa = PBXBuildFile; fileRef = 1D60588C0D05DD3D006BFB54 / main.swift */; };
     /* End PBXBuildFile section */
@@ -22,13 +21,42 @@
       path = Runner;
       sourceTree = "<group>";
     };
+
+    1D60588F0D05DD3D006BFB54 /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        LastUpgradeCheck = 1300;
+        LastSwiftUpdateCheck = 1300;
+        ORGANIZATIONNAME = "Your Company";
+        TargetAttributes = {
+          1D6058900D05DD3E006BFB54 = {
+            CreatedOnToolsVersion = 13.0;
+          };
+        };
+      };
+      buildConfigurationList = 1D6058910D05DD3E006BFB54 /* Build configuration list for PBXProject "Runner" */;
+      compatibilityVersion = "Xcode 12.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+      );
+      mainGroup = 1D60588E0D05DD3D006BFB54 /* Runner */;
+      productRefGroup = 1D60588E0D05DD3D006BFB54 /* Runner */;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (
+        1D6058900D05DD3E006BFB54 /* Runner */,
+      );
+    };
     /* End PBXGroup section */
 
     /* Begin PBXNativeTarget section */
     1D6058900D05DD3E006BFB54 /* Runner */ = {
       isa = PBXNativeTarget;
-      buildConfigurationList = 1D6058910D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Runner" */;
+      buildConfigurationList = 1D6058920D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Runner" */;
       buildPhases = (
+        1D6058940D05DD3E006BFB54 /* Sources */,
       );
       buildRules = (
       );
@@ -40,62 +68,55 @@
     };
     /* End PBXNativeTarget section */
 
-    /* Begin PBXProject section */
-    1D60588F0D05DD3D006BFB54 /* Project object */ = {
-      isa = PBXProject;
-      targets = (
-        1D6058900D05DD3E006BFB54 /* Runner */,
+    /* Begin PBXSourcesBuildPhase section */
+    1D6058940D05DD3E006BFB54 /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        1D60588D0D05DD3D006BFB54 /* main.swift in Sources */,
       );
-      attributes = {
-        LastUpgradeCheck = 1420;
-      };
-      buildConfigurationList = 1D6058910D05DD3E006BFB54;
-      compatibilityVersion = "Xcode 9.3";
-      developmentRegion = en;
-      hasScannedForEncodings = 0;
-      knownRegions = (
-        en,
-      );
-      mainGroup = 1D60588E0D05DD3D006BFB54;
-      productRefGroup = 1D60588E0D05DD3D006BFB54;
-      projectDirPath = "";
-      projectRoot = "";
+      runOnlyForDeploymentPostprocessing = 0;
     };
-    /* End PBXProject section */
+    /* End PBXSourcesBuildPhase section */
 
     /* Begin XCBuildConfiguration section */
-    1D6058920D05DD3E006BFB54 /* Debug */ = {
+    1D6058950D05DD3E006BFB54 /* Debug */ = {
       isa = XCBuildConfiguration;
+      buildSettings = {
+        PRODUCT_NAME = "$(TARGET_NAME)";
+      };
       name = Debug;
-      buildSettings = {
-        PRODUCT_NAME = "$(TARGET_NAME)";
-        SDKROOT = iphoneos;
-        SWIFT_VERSION = 5.0;
-      };
     };
-    1D6058930D05DD3E006BFB54 /* Release */ = {
+    1D6058960D05DD3E006BFB54 /* Release */ = {
       isa = XCBuildConfiguration;
-      name = Release;
       buildSettings = {
         PRODUCT_NAME = "$(TARGET_NAME)";
-        SDKROOT = iphoneos;
-        SWIFT_VERSION = 5.0;
       };
+      name = Release;
     };
     /* End XCBuildConfiguration section */
 
     /* Begin XCConfigurationList section */
-    1D6058910D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Runner" */ = {
+    1D6058910D05DD3E006BFB54 /* Build configuration list for PBXProject "Runner" */ = {
       isa = XCConfigurationList;
       buildConfigurations = (
-        1D6058920D05DD3E006BFB54 /* Debug */,
-        1D6058930D05DD3E006BFB54 /* Release */,
+        1D6058950D05DD3E006BFB54 /* Debug */,
+        1D6058960D05DD3E006BFB54 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+
+    1D6058920D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Runner" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        1D6058950D05DD3E006BFB54 /* Debug */,
+        1D6058960D05DD3E006BFB54 /* Release */,
       );
       defaultConfigurationIsVisible = 0;
       defaultConfigurationName = Release;
     };
     /* End XCConfigurationList section */
-
   };
   rootObject = 1D60588F0D05DD3D006BFB54 /* Project object */;
 }
